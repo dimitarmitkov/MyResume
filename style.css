@@ -1,0 +1,214 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(18, 27, 60);
+    background: url("./img/pexels-mati-mango-3193767.jpg") no-repeat;
+    /*background-size: cover;*/
+    background-size: 100rem;
+    height: auto;
+    width: auto;
+}
+
+
+header {
+    color: rgb(18, 27, 60);
+    /*padding-top: 00px;*/
+    /*padding-bottom: 10px;*/
+    width: 100%;
+}
+
+header article {
+    float: left;
+    padding-left: 5rem;
+}
+
+header article + article {
+    float: right;
+    padding-right: 5rem;
+}
+
+header article ul li {
+    display: inline-block;
+}
+
+#arrow #arrow2 {
+    display: inline-block;
+    color: rgb(18, 27, 60);
+}
+
+p, span, .bx-md, .bx-sm, #clickIcon {
+    color: rgb(18, 27, 60);
+    font-weight: bolder;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+
+}
+
+main {
+    text-align: center;
+    padding-top: 5%;
+}
+
+#Dimitar {
+    color: white;
+}
+
+#date {
+    margin-left: 5px;
+    font-weight: lighter;
+}
+
+#time {
+    font-weight: lighter;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+
+main h1 {
+    color: rgb(231, 87, 55);
+}
+
+#startBtn {
+    /*background-color: rgb(231,87,55);*/
+}
+
+
+main section, div {
+    display: inline-block;
+}
+
+main div i, img {
+    display: inline-block;
+}
+
+
+main section {
+    text-align: center;
+
+}
+
+main section h1 {
+    /*margin: 0 auto;*/
+    width: 100%;
+}
+
+main section {
+    width: auto;
+    align-content: center;
+}
+
+main section button {
+    background-color: rgb(18, 27, 60);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 1px 10px 1px 10px;
+    width: 50%;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+#marquee {
+    padding-top: 7rem;
+}
+
+#footer {
+    display: inline-block;
+    /*width: 100%;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(18, 27, 60);
+    color: white;
+    font-weight: bold;
+}
+
+table {
+    color: rgb(255, 255, 255);
+}
+
+article {
+    float: left;
+    padding-left: 5rem;
+    /*margin-left: 10px;*/
+}
+
+article + article {
+    float: right;
+    padding-right: 5rem;
+}
+
+main div img {
+    width: 143px;
+    height: 155px;
+    border-radius: 10px;
+    float: right;
+}
+
+main div i {
+    float: right;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    /*height: 200px;*/
+    /*margin-top: -200px;*/
+    width: 100%;
+}
+
+
+#row1 {
+    width: 100%;
+    height: 155px;
+}
+
+.row .w-100 {
+    width: 100%;
+}
+
+#dimitarText {
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+#mitko {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    text-align: left;
+    /*mix-blend-mode: multiply;*/
+}
+
+#white + td {
+    color: white;
+}
+
+table > tbody > tr > td > i, table > thead > tr > th > i {
+    float: left;
+}
+
+table > thead, table > tbody, table > tbody > tr > td, b {
+    color: white;
+}
+
+.table, .table-borderless {
+    color: white;
+}
+

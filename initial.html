@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Mitko</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+
+<header>
+    <br>
+    <p id="dateTime">
+        <i class="bx bxs-right-arrow"></i><span></span>
+        <span id="date"></span>
+        <span id="time"></span>
+    </p>
+    <p>
+        <i class="bx bxs-right-arrow"></i>
+        <span id="weather"></span>
+        <span>
+                        <a id="clickIcon" style="display: none; text-decoration: none"  href="#" > click the icon
+                            <i id="arrow" class="bx bxs-right-arrow bx-sm bx-fade-right"></i>
+                            <i id="arrow2" class="bx bxs-user-rectangle bx-md"></i>
+                        </a>
+        </span>
+    </p>
+</header>
+
+<main>
+    <div id="dimitarText">
+        <section>
+            <h1>
+                Discover <span id="Dimitar">Dimitar's</span> web page.
+            </h1>
+            <button id="startBtn">
+                my resume here
+            </button>
+        </section>
+    </div>
+    <div id="resume" style="display: none">
+        <div class="row">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+
+
+        </div>
+        <table class="table-borderless">
+            <thead>
+            <tr>
+                <th class="col-6">Dimitar Mitkov</th>
+                <th class="col-6"><img src="img/mitko_LI.png" alt="Mitko picture" width="20%" height="20%"></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="text-align: center">+359 88 7808280</td>
+            </tr>
+            <tr>
+                <td style="text-align: center">dimitar.mitkov@me.com</td>
+            </tr>
+            <tr>
+                <td style="text-align: center">Sofia, Bulgaria</td>
+            </tr>
+            </tbody>
+
+
+        </table>
+        <table class="table">
+            <thead>
+            <tr>
+                <th><i style="float: left" class='bx bx-book-open'></i>Education</th>
+                <th><i class='bx bx-pencil' ></i>Skills</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <i class='bx bx-code-alt' ></i> C#, JavaScript, HTML, CSS, SQL<br>
+                    SoftUni Sofia<br>
+                    2019 – <br>
+                    <br>
+                    <i class='bx bx-money' ></i> Finance and Banking<br>
+                    University of National and World Economy
+                    Sofia<br>
+                    <br>
+                    <i class='bx bx-cog'></i> Heating and Refrigerating Engineering<br>
+                    Technical University Sofia<br>
+                    <br>
+                    Educational courses<br>
+                    Credit analysis, Raiffeisen Zentral Bank Austria (Wien)<br>
+                    <br>
+                    Sales forces motivation and goal demanding process<br>
+                    Bolton Alimentari SpA Milano, Italy<br>
+                    <br>
+                    Innovative food service, marketing and business development<br>
+                    Budapest, Hungary<br>
+
+                </td>
+                <td>
+                    <i class='bx bx-code-block' ></i>Computer skills:<br>
+                    - Very good knowledge in C# and JavaScript;<br>
+                    - NodeJS, ExpressJS, ASP.NET Core, ASP.NET MVC;<br>
+                    - Entity Framework Core, LINQ;<br>
+                    - Web sites and client-side scripting – HTML5, CSS3, JavaScript(ES6), AJAX, Bootstrap, jQuery,
+                    Razor;<br>
+                    - Databases MSSQL and MySQL;<br>
+                    - Object-oriented programming and modeling (knowledge in design patterns and SOLID);<br>
+                    - Source control systems – Git (GitHub);<br>
+                    - App Containerization – Docker;<br>
+                    <i class='bx bx-wrench' ></i> Other skills:<br>
+                    Expert knowledge in Microsoft Excel;<br>
+                    Presentation and communication skills;<br>
+                    Video editing skills (YouTube);<br>
+                    Web developer (as a freelancer)<br>
+                    https://cityservicetires.com (JavaScript, CSS, HTML)<br>
+                    https://neotericnoob.com (JavaScript, HTML,SASS)<br>
+
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th><i class='bx bxs-user'></i> Profile</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    − Passionate IT student, interested in business oriented applications, greedy for knowledge.<br>
+                    − Experienced in business, operation, organization and market analysis, having first-hand knowledge
+                    how
+                    company operates on financial, business, infrastructural and management level.<br>
+                    − Having practical knowledge in different software systems development and implementation (ERP,
+                    accounting,
+                    banking).<br>
+                    − Skilled in budgeting; project management; time limits planning, follow-up and compliance.<br>
+                    − Talented in improvement and development.
+
+                </td>
+
+            </tr>
+            </tbody>
+        </table>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th><i class='bx bx-brain'></i>Strengths</th>
+                <th> <i class='bx bx-run' ></i>Passions</th>
+            </tr>
+            </thead>
+            <tbody id="white">
+            <tr>
+                <td>
+                    - Teamwork & collaboration<br>
+                    - Positive attitude<br>
+                    - Creativity<br>
+                    - Learning fast<br>
+                    - Entrepreneurial mindset<br>
+
+                </td>
+                <td>
+                    - IT technologies & Software development<br>
+                    - Engineering<br>
+                    - Analysis and mathematics<br>
+                    - Greed for enlightenment<br>
+                    - Sports: running/trail running, tennis, ski<br>
+
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+
+<footer id="footer">
+    <article>
+        &copy; Copyright 2020
+    </article>
+    <article>
+        <a href="https://www.facebook.com/dimitar.mitkov.735"><i class='bx bxl-facebook-square'></i></a>
+        <a href="https://www.linkedin.com/in/dimitar-mitkov-bg"> <i class='bx bxl-linkedin-square'></i></a>
+        <a href="https://github.com/dimitarmitkov"> <i class='bx bxl-github'></i></a>
+        <a id="mail" href = "mailto:dimitar.mitkov@me.com"> <i class="bx bx-mail-send"></i></a>
+    </article>
+</footer>
+
+
+<script src="initial.js" type="module"></script>
+<script src="time/timeout.js" type="module"></script>
+
+</body>
+</html>
